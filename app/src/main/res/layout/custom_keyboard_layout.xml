@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:showDividers="beginning|middle|end">
+
+        <TableRow style="@style/keyboard_row">
+
+            <Button
+                android:id="@+id/tvKey1"
+                style="@style/keyboard_number_material_button_custom"
+                android:text="1"/>
+
+            <Button
+                android:id="@+id/tvKey2"
+                style="@style/keyboard_number_material_button_custom"
+                android:text="2"/>
+
+            <Button
+                android:id="@+id/tvKey3"
+                style="@style/keyboard_number_material_button_custom"
+                android:text="3"/>
+        </TableRow>
+
+        <TableRow style="@style/keyboard_row">
+
+            <Button
+                android:id="@+id/tvKey4"
+                style="@style/keyboard_number_material_button_custom"
+                android:text="4"/>
+
+            <Button
+                android:id="@+id/tvKey5"
+                style="@style/keyboard_number_material_button_custom"
+                android:text="5"/>
+
+            <Button
+                android:id="@+id/tvKey6"
+                style="@style/keyboard_number_material_button_custom"
+                android:text="6"/>
+        </TableRow>
+
+        <TableRow style="@style/keyboard_row">
+
+            <Button
+                android:id="@+id/tvKey7"
+                style="@style/keyboard_number_material_button_custom"
+                android:text="7"/>
+
+            <Button
+                android:id="@+id/tvKey8"
+                style="@style/keyboard_number_material_button_custom"
+                android:text="8"/>
+
+            <Button
+                android:id="@+id/tvKey9"
+                style="@style/keyboard_number_material_button_custom"
+                android:text="9"/>
+        </TableRow>
+
+        <TableRow style="@style/keyboard_row">
+
+            <ImageView
+                android:id="@+id/tvKeyclear"
+                style="@style/keyboard_blank_button"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <Button
+                android:id="@+id/tvKey0"
+                style="@style/keyboard_number_material_button_custom"
+                android:text="0"/>
+
+            <ImageView
+                android:id="@+id/tvKeyBackspace"
+                style="@style/keyboard_image_button"
+                android:src="@android:drawable/ic_delete"/>
+        </TableRow>
+    </TableLayout>
+</FrameLayout>
